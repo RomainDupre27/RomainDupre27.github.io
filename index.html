@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Romain Dupre - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #222;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #444;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+    .card {
+      background: white;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+    a {
+      color: #0066cc;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Romain Dupre</h1>
+    <p>Développeur backend & passionné de cybersécurité</p>
+  </header>
+
+  <section>
+    <h2>À propos</h2>
+    <p>
+      Je suis développeur backend en formation, passionné par la cybersécurité et les systèmes.
+      J'aime créer des projets robustes et apprendre de nouvelles technologies.
+    </p>
+  </section>
+
+  <section>
+    <h2>Projets</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Challenge CTF Root-Me</h3>
+        <p>Analyse de protocole réseau, exploitation d’authentification LDAP.</p>
+        <a href="https://root-me.org">Voir</a>
+      </div>
+      <div class="card">
+        <h3>Bot Puppeteer</h3>
+        <p>Automatisation d’un bot détectable, gestion de CAPTCHA et détection d’anomalies.</p>
+        <a href="#">Code à venir</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Tu peux me contacter par email : <a href="mailto:romain@example.com">romain@example.com</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Romain Dupre
+  </footer>
+
+</body>
+</html>
